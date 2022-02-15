@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{   
+    margin: 0px;
+    padding: 0px;
+    background-image: url(image/background.png);    
+}
+header, footer{
+    background-color: #C55394;
+}
+header p{
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+}
+header p, header nav{
+    color: #FFF;
+    margin-left: 20px;
+    display: inline-block;
+}
+header nav{
+    margin-left: 800px;
+}
+nav a{
+    color: #FFF;
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+
+}
+nav a:hover{
+    padding: 14px;
+    background-color:#EB43A3;
+    box-shadow: 3px 3px 15px #FFF;
+}
+section p{
+    font-family: Arial, sans-serif;
+}
+article h1{   
+    width: 450px;
+    margin: auto;
+    margin-top: 25px;
+    color: #C55394; 
+    padding: 50px 0px 50px 200px;
+    font-family: 'Courgette', cursive;  
+    background-image: url(image/rainbow.png);
+}
+.about{
+    margin: auto;
+    width: 1000px;
+    margin-top: 0px;
+    border-radius: 2%;
+    text-align: justify;
+    border: 1px solid #FFF;
+    padding: 25px 20px 25px 20px;
+    box-shadow: 3px 3px 15px #333;
+}
+section h3{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+section figure{
+    width: 165px;
+    display: inline-block;    
+}
+section figure img{
+    width: 200px;
+}
+section figure img:hover{
+    width: 220px;    
+}
+section figure figcaption{
+    height: 30px;
+    width: 200px;
+    color: #FFF;
+    padding-top: 9px;
+    text-align: center;
+    background-color: #333;   
+}
+#Lieu{
+    display: inline-block;   
+}
+#info1{
+    width: 300px;
+    margin-top: 0px;
+    padding-left: 40px;
+    display: inline-block;   
+}
+#info1 h4{
+    color: #EB43A3;
+    font-family: 'Courgette', cursive;
+}
+input{
+    width: 250px;
+    height: 40px;
+}
+input[type=submit]{
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EB43A3 ;
+}
+footer{
+    height: 50px;
+    color: #FFF;
+    margin-top: 90px;
+    padding-top: 5px;
+    text-align: right;
+    background-color: #E577B5;
+}
+

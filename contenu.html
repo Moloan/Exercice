@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+        <meta name="wiewport" content="width=device-width, initial-scale=1.0">
+        <title> Evaluation pratique HTML CSS </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="/chemin-vers-fontawesome/css/all.css" rel="stylesheet">
+    </head>
+
+        <!-- Dans la partie header se trouve l'en tête de ma page avec les items qui deviennent rose clair au survol de la souris
+        ainsi qu'une ombre se trouve autour du bloc-->
+        <!-- Les liens du menu sont des ancres vers les trois section -->
+        <header>
+            <p> MyUnicorn </p>
+            <nav>
+                <a href="#Principe"> Le principe </a>
+                <a href="#PhotoLicornes"> Nos licornes </a>
+                <a href="#Lieu"> Nous trouver </a>
+            </nav>   
+        </header>
+
+        
+        <body>
+            <article>
+                <h1> Un jour, une licorne </h1>
+                    <div class="about">
+                        <section>
+                            <h3 id="Principe"> Le principe </h3>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non sodales ipsum sollicitudin sed.</p>
+                                <p> Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce eleifend lacinia orci eu iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa lacus. Aenean quis enim diam.</p>
+                        </section>
+                                <br> <br> <br>
+                        <!-- Les images sont entourés par les balises figures et les noms des licornes se trouvent dans la balise
+                        figcation. Les images ont un effet de zoom quand on passe le souris sur l'image-->
+                        <section>
+                            <h3 id="PhotoLicornes"> Nos licornes </h3>
+                                <figure>
+                                    <img src="image/photo1.jpg" alt="Lulu Confetty" width="100">
+                                        <figcaption> Lulu Confetty </figcaption>
+                                    </figure>
+                                <figure>
+                                    <img src="image/photo2.jpg" alt="Lapillon Magik" width="100">
+                                        <figcaption> Lapillon Magik </figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="image/photo3.jpg" alt="El Ninjacorn" width="100">
+                                            <figcaption> El Ninjacorn </figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="image/photo4.jpg" alt="Sweety Candy" width="100">
+                                            <figcaption> Sweety Candy </figcaption>
+                                    </figure>          
+                        </section>
+                                <br> <br> <br>
+                        <section>
+                            <div id="Lieu">
+                                    <h3> Nous trouver </h3>
+                                    <br> <br>
+                                    <!-- La carte est une carte Google Maps interactive, centrée sur la boutique -->
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.185148673216!2d2.354205515124287!3d48.854679708922845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fd386f1aad%3A0x5cb4dc648f654b05!2s18%20Rue%20Geoffroy%20l&#39;Asnier%2C%2075004%20Paris%2C%20France!5e0!3m2!1sfr!2smg!4v1644572052756!5m2!1sfr!2smg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <div id="info1">
+                                    <h4> Notre élevage de licorne est situé au : </h4>
+                                        <p> 18 Rue Geoffroy l'Asnier <br> 75004 Paris <br> 01.23.45.67.89 </p>
+                                            <br>
+                                    <h4> Newsletter </h4>
+                                        <p> Abonnez-vous simplement à notre newsletter mensuelle ! </p>
+                                    <!-- Le formulaire d'inscription à la newsletter renvoie sur la page "newsletter.php", qui
+                                    n'est PAS à créer par mes soins-->
+                                    <input type="email" placeholder="Ex: votre@gmail.com">
+                                            <br> <br>
+                                    <a href="newsletter.php"> <input id="valider" type="submit" value="Valider"> </a>
+                                            <br> <br> <br> <br> <br> <br>
+                            </div>
+                                    
+                            </div>                                
+                                         
+                        </section>
+                    </div>
+            </article>    
+        </body>
+    
+    <footer>
+        <p> 2016 &copy webforce 3 </p>
+    </footer>
+</html>
